@@ -1,0 +1,17 @@
+#! /usr/bin/env node
+
+const generate = require('./generate');
+const play = require('./play');
+
+const argv = require('yargs').argv;
+
+argv.beats = argv.beats || 32;
+argv.tempo = argv.tempo || 120;
+argv.metronome = argv.metronome || false;
+argv.onlySyncopation = argv.onlySyncopation || false;
+
+const rhythm = generate(argv.beats, true, argv.onlySyncopation, argv.metronome);
+console.log(rhythm);
+(async function () {
+  await play(rhythm, argv.tempo);
+})()

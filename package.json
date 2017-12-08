@@ -1,0 +1,26 @@
+{
+  "name": "rhythm-generation",
+  "version": "0.0.1",
+  "description": "",
+  "main": "generate.js",
+  "bin": {
+    "rhythm": "./cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/therebelrobot/rhythm-generation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/rhythm-generation/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/rhythm-generation#readme",
+  "dependencies": {
+    "play-sound": "^1.1.1",
+    "yargs": "^10.0.3"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "quarter",
+    "image": "https://i.imgur.com/zgkyMPe.png",
+    "representation": "X_______",
+    "sound": ""
+  },
+  {
+    "name": "two eighths",
+    "image": "https://i.imgur.com/WBGKyvB.png",
+    "representation": "X___x___",
+    "sound": ""
+  },
+  {
+    "name": "four 16ths",
+    "image": "https://i.imgur.com/4olObmE.png",
+    "representation": "X_x_x_x_",
+    "sound": ""
+  },
+  {
+    "name": "eighth and two 16ths",
+    "image": "https://i.imgur.com/hKlVGG6.png",
+    "representation": "X___x_x_",
+    "sound": ""
+  },
+  {
+    "name": "two 16ths and eighth",
+    "image": "https://i.imgur.com/9cxedLM.png",
+    "representation": "X_x_x___",
+    "sound": ""
+  },
+  {
+    "name": "dotted eighth and 16th",
+    "image": "https://i.imgur.com/qqjPv73.png",
+    "representation": "X_____x_",
+    "sound": ""
+  },
+  {
+    "name": "16th and dotted eighth",
+    "image": "https://i.imgur.com/ZyzPyRB.png",
+    "representation": "X_x_____",
+    "sound": ""
+  },
+  {
+    "name": "16th and eighth and 16th",
+    "image": "https://i.imgur.com/1nP9EiE.png",
+    "representation": "X_x___x_",
+    "sound": ""
+  }
+]
